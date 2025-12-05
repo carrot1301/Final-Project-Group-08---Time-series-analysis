@@ -13,24 +13,28 @@ This project focuses on analyzing and forecasting the **Outstanding Balance of H
 
 | File Name | Description |
 | :--- | :--- |
-| **`Group08_FinalReport_SourceCode.ipynb`** | 🐍 **Source Code:** The Jupyter Notebook containing data cleaning, exploratory data analysis (EDA), and time-series modeling algorithms. |
-| **`Group08_FinalReport.pdf`** | 📄 **Full Report:** The complete thesis documenting the theoretical framework, model selection process, and detailed error analysis (RMSE, MAE). |
+| **`Group08_FinalReport_SourceCode.ipynb`** | 📈 **R Notebook:** The Jupyter Notebook (running R Kernel on Google Colab) containing data cleaning, decomposition, and forecasting models. |
+| **`Group08_FinalReport.pdf`** | 📄 **Full Report:** The complete thesis documenting the theoretical framework, model selection process, and detailed error analysis. |
 | **`Group08_FinalReport_Presentation.pdf`** | 📊 **Slides:** Executive summary presentation highlighting key findings and business recommendations. |
 
 ## 🛠 Methodology & Tools
-* **Language:** Python 3.x
-* **Data Processing:** Pandas, NumPy
-* **Visualization:** Matplotlib, Seaborn
-* **Modeling Techniques:**
-    * Time Series Decomposition (Trend, Seasonality, Noise).
-    * Stationarity Testing (ADF Test).
-    * Forecasting Models (e.g., ARIMA/SARIMA, Holt-Winters, or Regression - *based on your code*).
-    * Model Evaluation (MAPE, RMSE).
+* **Environment:** Google Colab (R Kernel) / Jupyter Notebook
+* **Language:** **R**
+* **Key Libraries:**
+    * `tidyverse` (Data Manipulation & Visualization)
+    * `forecast` (ARIMA, ETS, Holt-Winters models)
+    * `tseries` (Stationarity Tests / ADF)
+    * `ggplot2` (Advanced Plotting)
+    * `zoo` / `xts` (Time series objects handling)
 
-## 📊 Key Findings
-*(You can briefly summarize 1-2 main points from your slides here. Example below:)*
-* Identified a strong seasonal pattern in loan disbursement towards the end of the fiscal year.
-* The forecasting model achieved an accuracy rate of **X%** (or low MAPE), proving reliable for short-term liquidity planning.
+## 📊 Modeling Approach
+1.  **Data Preprocessing:** Handling missing values and converting data to Time Series objects (`ts`).
+2.  **EDA & Decomposition:** Analyzing Trend, Seasonality, and Random components using STL decomposition.
+3.  **Stationarity Test:** Conducting Augmented Dickey-Fuller (ADF) tests.
+4.  **Forecasting Models:**
+    * ARIMA / SARIMA (Auto-Regressive Integrated Moving Average)
+    * Exponential Smoothing (Holt-Winters)
+5.  **Evaluation:** Comparing models based on RMSE (Root Mean Squared Error) and MAPE.
 
 ## 👤 About the Author
 **Doan Nguyen Tri**
@@ -42,4 +46,4 @@ This project focuses on analyzing and forecasting the **Outstanding Balance of H
 * **Contact:** doantri12343@gmail.com
 
 ---
-*Disclaimer: This project is for educational and research purposes as part of the academic curriculum at UEF. Data used may be simulated or anonymized for confidentiality.*
+*Disclaimer: This project is for educational and research purposes as part of the academic curriculum at UEF.*
