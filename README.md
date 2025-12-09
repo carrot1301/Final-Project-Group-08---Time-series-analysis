@@ -16,6 +16,7 @@ This project focuses on analyzing and forecasting the **Outstanding Balance of H
 | **`Group08_FinalReport_SourceCode.ipynb`** | 📈 **R Notebook:** The Jupyter Notebook (running R Kernel on Google Colab) containing data cleaning, decomposition, and forecasting models. |
 | **`Group08_FinalReport.pdf`** | 📄 **Full Report:** The complete thesis documenting the theoretical framework, model selection process, and detailed error analysis. |
 | **`Group08_FinalReport_Presentation.pdf`** | 📊 **Slides:** Executive summary presentation highlighting key findings and business recommendations. |
+| **`Home_loan_balance_Data.xlsx`** | 📊 **Source data:**|
 
 ## 🛠 Methodology & Tools
 * **Environment:** Google Colab (R Kernel) / Jupyter Notebook
